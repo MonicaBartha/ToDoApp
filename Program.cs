@@ -28,6 +28,8 @@ namespace ToDoApp
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 
